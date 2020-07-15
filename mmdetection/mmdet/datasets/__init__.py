@@ -11,7 +11,7 @@ from .voc import VOCDataset
 from .wider_face import WIDERFaceDataset
 from .xml_style import XMLDataset
 from .wheat import WheatDataset, Wheat_classes_Dataset
-from .x_ray import XRayDataset
+from .x_ray import X_RAY
 
 __all__ = [
     'CustomDataset', 'XMLDataset', 'CocoDataset', 'DeepFashionDataset',
@@ -22,4 +22,5 @@ __all__ = [
     'ConcatDataset', 'RepeatDataset', 'ClassBalancedDataset',
     'WIDERFaceDataset', 'DATASETS', 'PIPELINES', 'build_dataset',
     'WheatDataset', 'Wheat_classes_Dataset',
+    'X_RAY',
 ]

@@ -4,11 +4,11 @@ import os
 import os.path as osp
 import time
 
-available_gpu_ids = [1]
+available_gpu_ids = [2]
 os.environ['CUDA_VISIBLE_DEVICES'] = ', '.join(list(map(str, available_gpu_ids)))
 
 # config
-config_path = '../configs/faster_rcnn/base_faster.py'
+config_path = '../configs/cascade_rcnn/renext101_64_cascade_2x.py'
 
 import mmcv
 import torch
